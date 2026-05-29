@@ -1,4 +1,7 @@
-#HELP.md
+HELP.md
+DRAFT_THESIS.md
+IDEAS_FROM_AI.md
+
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
