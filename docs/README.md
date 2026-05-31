@@ -28,6 +28,22 @@ Web platform for backtesting trading strategies. Upload Python strategies, run t
     * High quality checklist rules first (making it close to being highly implementable as Python code)
     * And if the customer accepts that checklist, the AI to transform that checklist into Python code
 
-## System Architecture
-1. Use Case Diagram
-   ![Use Case Diagram](images/use_case_diagram.svg)
+## 3. System Architecture
+
+### 3.1. Use Case Diagram
+![Use Case Diagram](images/use_case_diagram.svg)
+
+<br>
+
+### 3.2. Component Architecture
+![architecture_diagram](images/architecture_diagram.svg)
+
+<br>
+
+### 3.2. Entity-Relationship Diagram
+![entity_relationship_diagram](images/entity_relationship_diagram.svg)
+
+<br>
+
+### 3.3. Sequence Diagram
+![sequence_diagram](images/sequence_diagram.svg)
