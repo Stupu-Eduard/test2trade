@@ -1,34 +1,40 @@
-# Project Title and Description
-# Test2Trade
-Web platform for backtesting trading strategies. Upload Python strategies, run them on real market data, and analyze results through an interactive dashboard. Features AI-assisted strategy generation from natural language rules.
+<div align="center">
+  <h1>📈 Test2Trade</h1>
+  <p><i>Web platform for backtesting trading strategies.</i></p>
+  
+  <p>
+    <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  </p>
+</div>
 
+> **⚠️ DEVELOPMENT STATUS:** This project is in **very early development**. I am currently in the ideation and architectural design phase. All features and functionalities listed below are planned ideas and concepts, not yet implemented.
 
+---
 
-# Project Information
+## 📖 About The Project
 
-### Programming languages used:
+Upload Python strategies, run them on real market data, and analyze results through an interactive dashboard. Test2Trade bridges the gap between raw code and actionable market insights, featuring AI-assisted strategy generation from natural language rules.
 
-* Backend of the Web Server → Spring Boot
-* Frontend of the Web Server → React
-* Testing the strategy → Python
-* Database Configuration → PostgreSQL
+## ✨ Proposed Features & User Flow
 
-### Frontend Ideas:
+1. **Strategy Definition:** Introduce your custom trading strategy directly via **Python** code.
+2. **Data Selection:** Choose the historical market data source you want to test against (e.g., *Binance, Yahoo Finance*).
+3. **Execution Engine:** Trigger the backtesting process to simulate trades over the selected data.
+4. **Interactive Visual Dashboard:** Analyze comprehensive trading metrics, including:
+   * 🏆 **Winrate** & 📉 **Lowest Drawdown**
+   * 📊 **Day-by-Day Analysis:** Monday-Friday average charts to identify optimal trading days.
+   * 📰 **News Filter:** Overlay high-impact market news to test strategy resilience during volatility.
+5. **Advanced Intervals:** *(In Research)* Support for diverse backtesting intervals and timeframes.
+6. **🤖 AI Strategy Assistant:** *(Upcoming)* Transform trading ideas into executable code:
+   * Generates a high-quality rules checklist from natural language inputs.
+   * Converts user-approved checklists directly into deployable Python strategy code.
 
-1. At the start you introduce your trading strategy in Python code
-2. After that you choose on what data you want the strategy to be tested in (Binance, Yahoo Finance,other)
-3. After introducing the Python code, it will begin the backtest
-4. At the end it will bring a visual dashboard with every useful information for the trader:
-    * The winrate
-    * Lowest Drawdown
-    * Monday-Friday chart with info on how that day was as average (for the traders to see when not to trade)
-    * If it is possible to get information about high impact news and to make a check if they are willing to backtest while there are high impact news in that day or not.
-5. Maybe implement the different types of backtesting with different intervals (__I need more research on this__).
-6. After everything else is implemented, starting the research on how to implement a custom AI that will transform your trading idea in a:
-    * High quality checklist rules first (making it close to being highly implementable as Python code)
-    * And if the customer accepts that checklist, the AI to transform that checklist into Python code
+---
 
-## 3. System Architecture
+## 🏗️ System Architecture
 
 ### 3.1. Use Case Diagram
 ![Use Case Diagram](images/use_case_diagram.svg)
@@ -40,10 +46,10 @@ Web platform for backtesting trading strategies. Upload Python strategies, run t
 
 <br>
 
-### 3.2. Entity-Relationship Diagram
+### 3.3. Entity-Relationship Diagram
 ![entity_relationship_diagram](images/entity_relationship_diagram.svg)
 
 <br>
 
-### 3.3. Sequence Diagram
+### 3.4. Sequence Diagram
 ![sequence_diagram](images/sequence_diagram.svg)
