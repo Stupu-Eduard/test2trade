@@ -1,0 +1,29 @@
+services:
+  # === DATABASE INTEGRATION === #
+  test2trade-db:
+    # === PULL TimescaleDB image === #
+    image: timescale/timescaledb:latest-pg18
+    container_name: test2trade-db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=test2trade
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=2345
+    volumes:
+      # Copy local schema.sql file into the docker container
+      - ./src/main/resources/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+      # Make sure data is saved on local drive for data persistence (preventing ephemeral data loss)
+      - timescale_data:/var/lib/postgresql
+
+volumes:
+  timescale_data:
+
+
+
+
+
+
+
+
+
