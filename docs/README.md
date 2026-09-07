@@ -28,9 +28,6 @@ Upload Python strategies, run them on real market data, and analyze results thro
    * 📊 **Day-by-Day Analysis:** Monday-Friday average charts to identify optimal trading days.
    * 📰 **News Filter:** Overlay high-impact market news to test strategy resilience during volatility.
 5. **Advanced Intervals:** *(In Research)* Support for diverse backtesting intervals and timeframes.
-6. **🤖 AI Strategy Assistant:** *(Upcoming)* Transform trading ideas into executable code:
-   * Generates a high-quality rules checklist from natural language inputs.
-   * Converts user-approved checklists directly into deployable Python strategy code.
 
 ---
 
