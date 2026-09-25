@@ -1,0 +1,2 @@
+py -m pip install yfinance
+py -m pip install numpy pandas yfinance matplotlib seaborn
